@@ -1,0 +1,23 @@
+# LCARS — a Voyager-era LCARS theme for Ghostty
+background = #000000
+foreground = #ececf2
+cursor-color = #ffaa00
+cursor-text = #000000
+selection-background = #ff9900
+selection-foreground = #000000
+palette = 0=#000000
+palette = 1=#ff5555
+palette = 2=#33cc99
+palette = 3=#ffcc66
+palette = 4=#7788ff
+palette = 5=#cc99ff
+palette = 6=#88ccff
+palette = 7=#b4b4c4
+palette = 8=#666688
+palette = 9=#ff8866
+palette = 10=#33cc99
+palette = 11=#ffcc99
+palette = 12=#9999ff
+palette = 13=#ddbbff
+palette = 14=#88ccff
+palette = 15=#f5f6fa
