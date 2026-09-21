@@ -58,5 +58,7 @@ font-family = "JetBrainsMono Nerd Font"
 
 ## Related
 
-Part of a larger LCARS rice — see [lcars.nvim](https://github.com/jrodarte/lcars.nvim)
-for the matching Neovim colorscheme, statusline and dashboard.
+Part of a larger LCARS rice:
+
+- [tmux-lcars](https://github.com/jrodarte/tmux-lcars) — matching tmux status deck with live telemetry
+- [lcars.nvim](https://github.com/jrodarte/lcars.nvim) — Neovim colorscheme, statusline and dashboard
