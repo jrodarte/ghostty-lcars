@@ -18,8 +18,10 @@ cp "$src" "$dest_dir/lcars"
 echo "installed: $dest_dir/lcars"
 
 if [[ "${1:-}" == "--set" ]]; then
-  if grep -qE '^[[:space:]]*theme[[:space:]]*=' "$config" 2>/dev/null; then
-    echo "note: $config already sets a theme — leaving it alone."
+  if grep -qE '^[[:space:]]*theme[[:space:]]*=[[:space:]]*lcars[[:space:]]*$' "$config" 2>/dev/null; then
+    echo "$config already set to \`theme = lcars\` — nothing to do."
+  elif grep -qE '^[[:space:]]*theme[[:space:]]*=' "$config" 2>/dev/null; then
+    echo "note: $config already sets a different theme — leaving it alone."
     echo "      change that line to \`theme = lcars\` by hand."
   else
     mkdir -p "$(dirname "$config")"
